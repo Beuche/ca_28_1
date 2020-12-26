@@ -1,5 +1,5 @@
 licht=0
-lampe=5
+lampe=6
 while True:
     licht=input.light_level()
     if licht<100:

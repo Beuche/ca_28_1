@@ -1,6 +1,6 @@
 let anzeige: grove.TM1637;
 let licht = 0
-let lampe = 5
+let lampe = 6
 while (true) {
     licht = input.lightLevel()
     if (licht < 100) {
